@@ -24,7 +24,6 @@ namespace Tyuiu.KhanikyanDK.Sprint5.Task0.V17
             DataService ds = new DataService();
             int x = 3;
             string path = ds.SaveToFileTextData(x);
-            double result = 2.4 * Math.Pow(x, 3) + 0.4 * Math.Pow(x, 2) - 1.4 * x + 4.1;
 
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine($"x = {x}");
@@ -32,7 +31,6 @@ namespace Tyuiu.KhanikyanDK.Sprint5.Task0.V17
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("Результат сохранён в файл: " + path);
-            Console.WriteLine($"В файле записано: {result}");
             Console.WriteLine("***************************************************************************");
              
             Console.ReadKey();
