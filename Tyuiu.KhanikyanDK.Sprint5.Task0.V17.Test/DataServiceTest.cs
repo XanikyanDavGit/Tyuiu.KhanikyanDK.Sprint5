@@ -11,7 +11,7 @@ namespace Tyuiu.KhanikyanDK.Sprint5.Task0.V17.Test
         {
             string path = @"C:\Users\xanik\source\repos\Tyuiu.KhanikyanDK.Sprint5\Tyuiu.KhanikyanDK.Sprint5.Task0.V17\bin\Debug\net8.0\OutPutFileTask0.txt";
             FileInfo fileInfo = new FileInfo(path);
-            bool fileExists = fileInfo.Exists;
+            bool fileExists = fileInfo.Exists; 
             bool wait = true;
             Assert.AreEqual(wait, true);
         }
