@@ -8,8 +8,9 @@
 
   <ItemGroup>
     <Reference Include="tyuiu.cources.programming.interfaces">
-      <HintPath>..\Tyuiu.KhanikyanDK.Sprint4\tyuiu.cources.programming.interfaces.dll</HintPath>
+      <HintPath>..\..\tyuiu.cources.programming.interfaces.dll</HintPath>
     </Reference>
   </ItemGroup>
 
+	
 </Project>
