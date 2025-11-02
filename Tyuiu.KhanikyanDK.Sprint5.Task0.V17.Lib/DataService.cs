@@ -8,10 +8,7 @@ namespace Tyuiu.KhanikyanDK.Sprint5.Task0.V17.Lib
     {
         public string SaveToFileTextData(int x)
         {
-            double result = 2.4 * Math.Pow(x, 3)
-                           + 0.4 * Math.Pow(x, 2)
-                           - 1.4 * x
-                           + 4.1;
+            double result = 2.4 * Math.Pow(x, 3) + 0.4 * Math.Pow(x, 2) - 1.4 * x + 4.1;
             result = Math.Round(result, 3);
 
             // создаём путь во временной папке
