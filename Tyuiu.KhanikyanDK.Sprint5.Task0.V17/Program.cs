@@ -23,7 +23,7 @@ namespace Tyuiu.KhanikyanDK.Sprint5.Task0.V17
              
             DataService ds = new DataService();
             int x = 3;
-            string path = ds.SaveToFileTextData(x);
+            string path = ds.SaveToFileTextData(x); 
 
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine($"x = {x}");
