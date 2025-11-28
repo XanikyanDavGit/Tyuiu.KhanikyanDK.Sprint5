@@ -2,7 +2,6 @@
 using System.Globalization;
 using System.IO;
 using tyuiu.cources.programming.interfaces.Sprint5;
-using Tyuiu.Cources.Programming.Interfaces.Sprint5;
 
 namespace Tyuiu.KhanikyanDK.Sprint5.Task4.V12.Lib
 {
