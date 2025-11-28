@@ -10,8 +10,8 @@
     <Reference Include="tyuiu.cources.programming.interfaces">
       <HintPath>..\DLL\tyuiu.cources.programming.interfaces.dll</HintPath>
     </Reference>
-  </ItemGroup>
+  </ItemGroup> ///
 
 
 
-</Project>
+</Project>   
